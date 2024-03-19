@@ -1,0 +1,35 @@
+mkdir git-majonez
+  447  cd git-majonez/
+  448  touch main.cpp
+  449  vim main.cpp 
+  450  git status
+  451  git init 
+  452  git status
+  453  git add -u
+  454  git commit 
+  455  git add .
+  456  git staut
+  457  git commit 
+  458  vim main.cpp 
+  459  git status
+  460  git add -u
+  461  git status
+  462  git commit 
+  463  git status
+  464  git remote add origin git@github.com:fbtom/git-majonez.git
+  465  git push -u origin master
+  466  git branch
+  467  git checkout -b cs
+  468  git stauts
+  469  git status
+  470  git log 
+  471  git reset --hard HEAD~1
+  472  git status
+  473  vim main.cpp 
+  474  git status
+  475  git add -u
+  476  git status
+  477  git commit 
+  478  git status
+  479  git push origin cs
+  480  history
