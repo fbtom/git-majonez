@@ -1,0 +1,39 @@
+ 1118  mkdir git-majonez
+ 1119  cd git-majonez/
+ 1120  git init 
+ 1121  git status
+ 1122  ls
+ 1123  touch main.cpp
+ 1124  ls
+ 1125  code main.cpp 
+ 1126  git status 
+ 1127  git add -u
+ 1128  git status
+ 1129  git add main.cpp 
+ 1130  git commit 
+ 1131  git add -u
+ 1132  git status
+ 1133  git commit 
+ 1134  git remote add origin git@github.com:fbtom/git-majonez.git
+ 1135  git push -u origin master 
+ 1136  git checkout -b cs 
+ 1137  git log 
+ 1138  git reset --hard  HEAD~1
+ 1139  git status
+ 1140  git log 
+ 1141  git add -u
+ 1142  git status
+ 1143  git commit 
+ 1144  git push origin cs
+ 1145  git merge cs 
+ 1146  git log 
+ 1147  git branch 
+ 1148  git switch master 
+ 1149  git merge cs 
+ 1150  git status
+ 1151  git add -u
+ 1152  gits tatus
+ 1153  gtis tatus
+ 1154  git status
+ 1155  git commit 
+ 1156  history > ~/cs/git-majonez/history.txt
